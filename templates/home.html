@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="text-align:center;color:blue">Miles per Gallon Prediction</h1>
+<hr>
+<p1><div class="container">Miles per Gallon of a car depends upon its Horse power (HP),Volume (VOL),Speed (SP) and Weight (WT). This is a web application that predicts Miles per Gallon of a car  when given its values of Horse power in hp, Volume in litres, Speed in miles per hour and Weight in kilograms using Machine Learning based on that linear relationship between MPG and Horse power, Volume, Speed and Weight.</div></p1>
+<hr>
+<h3 style="text-align:center">Enter the values</h3>
+<br>
+<form method="POST" action="/predict">
+<div style="text-align:center">
+<label>Horse Power (HP)</label>
+<input type="text" name="HP">
+<br><br>
+<label>Volume (VOL) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" name="VOL">
+<br><br>
+<label>Speed (SP) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" name="SP">
+<br><br>
+<label>Weight (WT) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" name="WT">
+<br><br><br>
+<input class="btn btn-primary" type="submit">
+</div>
+</form>
+</body>
+</html>
